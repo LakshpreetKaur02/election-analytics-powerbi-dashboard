@@ -8,6 +8,18 @@ The dashboard enables users to move from a high-level election overview to detai
 
 ---
 
+## 📸 Dashboard Preview
+
+### Overview Analysis
+![Overview Analysis](screenshots/overview-analysis.png)
+
+### Constituency Analysis
+![Constituency Analysis](screenshots/constituency-analysis.png)
+
+### Dashboard Navigation
+![Dashboard Navigation](screenshots/dashboard-navigation.png)
+
+
 ## 📊 Project Overview
 
 Election data is distributed across multiple levels of granularity, including candidate-level voting records, constituency results, state-level information, and party-wise outcomes.
