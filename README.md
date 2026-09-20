@@ -7,8 +7,10 @@ This project transforms multiple real-world election datasets into an interactiv
 The dashboard enables users to move from a high-level election overview to detailed **state, party, alliance, constituency, candidate, vote, and margin-level analysis** within a unified analytical environment.
 
 ---
-
 ## 📸 Dashboard Preview
+
+### Dashboard Navigation
+![Dashboard Navigation](screenshots/dashboard-navigation.png)
 
 ### Overview Analysis
 ![Overview Analysis](screenshots/overview-analysis.png)
@@ -16,10 +18,7 @@ The dashboard enables users to move from a high-level election overview to detai
 ### Constituency Analysis
 ![Constituency Analysis](screenshots/constituency-analysis.png)
 
-### Dashboard Navigation
-![Dashboard Navigation](screenshots/dashboard-navigation.png)
-
-
+---
 ## 📊 Project Overview
 
 Election data is distributed across multiple levels of granularity, including candidate-level voting records, constituency results, state-level information, and party-wise outcomes.
