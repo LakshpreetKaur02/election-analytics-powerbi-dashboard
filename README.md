@@ -620,18 +620,26 @@ Power BI dashboards, maps, tables, KPI cards, slicers, and interactive visualiza
 
 ---
 
-## ⚠️ Data Enrichment & Interpretation Note
+## ⚠️ Data Enrichment & Alliance Classification
 
-The original source datasets did **not** contain an explicit Alliance classification.
+The underlying election datasets contain real-world election data; however, the original CSV structure did not include a dedicated `Alliance` field.
 
-The Alliance attribute used within the dashboard was manually curated and added as an **analytical enrichment** to enable alliance-level analysis.
+To enable alliance-level analysis, the relevant **real-world alliance information was researched and mapped to the corresponding political parties**. This information was then incorporated into the Power BI model through a **DAX-based calculated column**.
 
-Therefore:
+### Data Enrichment Process
 
-- The Alliance classification is an analytical layer added during project development.
-- It should not be interpreted as an original field contained in the source CSV files.
-- The original source data remains distinguishable from the manually enriched classification.
-- Alliance-level results should be interpreted according to the project's defined party-to-alliance mapping.
+```text
+Original Election Data
+        ↓
+Identify Party Information
+        ↓
+Research Corresponding Real-World Alliance
+        ↓
+Create Party-to-Alliance Mapping
+        ↓
+Implement Alliance Classification using DAX
+        ↓
+Alliance-Level Analysis in Power BI
 
 ---
 
